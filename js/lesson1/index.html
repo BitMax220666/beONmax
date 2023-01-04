@@ -1,19 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header id="pageHeader">Header</header>
-  <article id="mainArticle">Article</article>
-  <nav id="mainNav">Nav</nav>
-  <div id="siteAds">Ads</div>
-  <footer id="pageFooter">Footer</footer>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS с Иваном Петриченко</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="pageHeader">
+      <div class="titleHeader">JS с Иваном Петриченко</div>
+    </header>
+    <nav class="mainNav">
+      <div class="navWrapper">
+        <div class="titleNav">Навигация</div>
+      </div>
+      <div class="secNav">
+        <div class="sec">Подключение JS к странице и переменные</div>
+        <div class="sec">Урок 2</div>
+        <div class="sec">Урок 3</div>
+        <div class="sec">Урок 4</div>
+        <div class="sec">Урок 5</div>
+        <div class="sec">Урок 6</div>
+        <div class="sec">Урок 4</div>
+        <div class="sec">Урок 5</div>
+        <div class="sec">Урок 6</div>
+        <div class="sec">Урок 1</div>
+        <div class="sec">Урок 2</div>
+        <div class="sec">Урок 3</div>
+        <div class="sec">Урок 4</div>
+        <div class="sec">Урок 5</div>
+        <div class="sec">Урок 6</div>
+        <div class="sec">Урок 4</div>
+        <div class="sec">Урок 5</div>
+        <div class="sec">Урок 6</div>
+        <div class="sec">Урок 5</div>
+        <div class="sec">Урок 6</div>
+        <div class="sec">Урок 1</div>
+        <div class="sec">Урок 2</div>
+        <div class="sec">Урок 3</div>
+        <div class="sec">Урок 4</div>
+        <div class="sec">Урок 5</div>
+        <div class="sec">Урок 6</div>
+        <div class="sec">Урок 4</div>
+        <div class="sec">Урок 5</div>
+        <div class="sec">Урок 6</div>
+      </div>
+    </nav>
+    <article class="mainArticle">
+      <h1 class="mainTitle">
+        Урок 1. <span>Подключение JS к странице и переменные</span>
+      </h1>
+      <p>
+        В JS есть два способа подключения к странице html. Первый способ, когда
+        мы пишем код в теге &lt;script&gt;&lt;/script&gt;
+      </p>
+      <p>Например, так:</p>
+      <div class="image1"></div>
+      <p>Однако так мы можем подключить только маленькие скрипты.</p>
+      <p>Большие файлы скриптов лучше подключать при помощи атрибута src=""</p>
+      <div class="image2"></div>
+      <p>
+        В JS как в html и css есть свои стилистические правила и их стоит
+        соблюдать, чтобы кто-то другой смог легко разобраться в вашем коде.
+      </p>
+      <div class="image3"></div>
+        <p>
+          Мы будем всегда работать с какой-либо информацией: это может быть цена
+          товара, имя пользователя или какой-либо элемент на странице. Эту
+          информацию нам необходимо как-то сохранить, чтоббы использовать в
+          будущем. Здесь на на помощь приходят <b>переменные</b>.
+        </p>
+        <p>
+          Переменные - это хранилища информации. Своего рода подписанные коробки с
+          чем-либо. Существуют три способа объявления переменных.</p>
+        <p>Первый способ:<div class="image4"></div></p>
+        <p>Имя переменной может состоять только из букв, цифр, символов доллара и нижнего подчеркивания.
+        Также первый символ не должен быть цифрой. 
+        Есть еще одно ограничение с которым можно столкнуться - названия переменных не должны повторять зарезервированных слов.</p>
+        <p>Названия переменных обычно пишутся в формате camelcase, когда следующее слово пишется слитно но с большой буквы.</p>
+        <p>Следующие два способа относятся к современному формату ES6:</p>
+        <div class="image5"></div>
+        <p>В чем же разница между переменной let и var?</p>
+        <p>Если var уже объявлена в коде, то она существует еще до выполнения скрипта и она видна везде.</p>
+        <p>Например:</p>
+        <div class="image6"></div>
+        <p>Меняем местами</p>
+        <div class="image7"></div>
+        <p>Теперь проделаем такую же манипуляцию с let</p>
+        <div class="image8"></div>
+        <p>Переводится это так, что код не может найти нашу переменную. Однако если мы поменяем их местами то у нас все будет в порядке.</p>
+        <div class="image9"></div>
+        <p>Преимущество let перед var в том, что переменная создается только тогда когда до нее доходит код и на не нужно хранить в памяти и соответственно перегружаь память неиспользуемыми переменными.</p>
+        <p>const создает константу, значение которой поменять нельзя... но как мы потом узнаем, что можно:)</p>
+          
+        
+      
+    </article>
+
+    <footer class="pageFooter">Footer</footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
