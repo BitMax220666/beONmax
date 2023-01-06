@@ -1,9 +1,5 @@
-let persone = {
-    name: 'Jonn',
-    age: 25,
-    isMerried: false
-};
+// let answer = confirm('Вы здесь?');
+// console.log(answer);
 
-let personeArr = ['name','age','isMerried'];
-
-console.log(personeArr[2]);
+// let answer = prompt('Есть ли Вам 18?', 'Да');
+// console.log(typeof(answer));
