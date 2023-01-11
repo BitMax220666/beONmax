@@ -5,3 +5,10 @@
 // console.log(typeof(answer));
 //console.log('Меня зовут' + 'Максим');
 //console.log(5 + 'Максим');
+let incr = 10,
+    decr = 10;
+
+console.log(incr++);
+console.log(decr--);
+
+console.log(5 % 2);

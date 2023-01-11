@@ -136,7 +136,11 @@ p {
 .image8,
 .image9,
 .image24,
-.image25, .image26, .image27, .image28 {
+.image25,
+.image26,
+.image27,
+.image28,
+.image29, .image30, .image31, .image32, .image33 {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -254,6 +258,26 @@ p {
 
 .image28 {
     background-image: url("image/Screenshot_26.png");
+}
+
+.image29 {
+    background-image: url("image/Screenshot_27.png");
+}
+
+.image30 {
+    background-image: url("image/Screenshot_28.png");
+}
+
+.image31 {
+    background-image: url("image/Screenshot_29.png");
+}
+
+.image32 {
+    background-image: url("image/Screenshot_30.png");
+}
+
+.image33 {
+    background-image: url("image/Screenshot_31.png");
 }
 
 .pageFooter {
