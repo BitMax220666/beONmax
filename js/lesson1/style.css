@@ -140,7 +140,14 @@ p {
 .image26,
 .image27,
 .image28,
-.image29, .image30, .image31, .image32, .image33 {
+.image29,
+.image30,
+.image31,
+.image32,
+.image33,
+.image34,
+.image35,
+.image36 {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -278,6 +285,18 @@ p {
 
 .image33 {
     background-image: url("image/Screenshot_31.png");
+}
+
+.image34 {
+    background-image: url("image/Screenshot_32.png");
+}
+
+.image35 {
+    background-image: url("image/Screenshot_33.png");
+}
+
+.image36 {
+    background-image: url("image/Screenshot_34.png");
 }
 
 .pageFooter {
