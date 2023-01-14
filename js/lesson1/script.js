@@ -16,7 +16,9 @@
 // console.log('2' == 2);
 // console.log('2' === 2);
 
-// let open = true,
-//     close = true;
+// let open = false,
+//     close = false;
 
-// console.log(open && close);
+// console.log(open || !close);
+// a = 5;
+// console.log(a);
