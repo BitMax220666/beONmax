@@ -165,9 +165,9 @@ p {
 .image46,
 .image47,
 .image48,
-.image49 {
+.image49, .image50 {
     width: 100%;
-    height: 100%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -367,6 +367,10 @@ p {
 
 .image49 {
     background-image: url("image/Screenshot_47.png");
+}
+
+.image50 {
+    background-image: url("image/Screenshot_48.png");
 }
 
 .pageFooter {
