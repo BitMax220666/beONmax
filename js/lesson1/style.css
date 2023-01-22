@@ -116,6 +116,14 @@ p {
     font-size: 1.5vw;
 }
 
+.image {
+    transition: 1s;
+}
+
+.image:hover {
+    transform: scale(2, 2);
+}
+
 .imag10,
 .image1,
 .image10,
