@@ -71,7 +71,7 @@ nav {
     flex-direction: column;
     align-items: center;
     overflow: auto;
-    font-size: 1.1vw;
+    font-size: 1vw;
     font-weight: 700;
 }
 
@@ -120,7 +120,7 @@ p {
     transition: 1s;
 }
 
-.image:hover {
+.image:active {
     transform: scale(2, 2);
 }
 
@@ -183,7 +183,7 @@ p {
 .image56,
 .image57,
 .image58,
-.image59 {
+.image59, .image60 {
     width: 100%;
     height: 50%;
     background-position: center;
@@ -425,6 +425,10 @@ p {
 
 .image59 {
     background-image: url("image/Screenshot_57.png");
+}
+
+.image60 {
+    background-image: url("image/Screenshot_58.png");
 }
 
 .pageFooter {

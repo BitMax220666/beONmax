@@ -1,24 +1,7 @@
-// let answer = confirm('Вы здесь?');
-// console.log(answer);
+let money = prompt('Ваш бюджет на месяц?', ''),
+    time = prompt('Введите дату в формате YYYY-MM-DD', '');
 
-// let answer = +prompt('Есть ли Вам 18?', 'Да');
-// console.log(typeof(answer));
-//console.log('Меня зовут' + 'Максим');
-//console.log(5 + 'Максим');
-// let incr = 10,
-//     decr = 10;
-
-// console.log(incr++);
-// console.log(decr--);
-
-// console.log(5 % 2);
-
-// console.log('2' == 2);
-// console.log('2' === 2);
-
-// let open = false,
-//     close = false;
-
-// console.log(open || !close);
-// a = 5;
-// console.log(a);
+let appData = {
+    money: money,
+    timeData: time,
+};
