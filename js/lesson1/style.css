@@ -183,7 +183,14 @@ p {
 .image56,
 .image57,
 .image58,
-.image59, .image60 {
+.image59,
+.image60,
+.image61,
+.image62,
+.image63,
+.image64,
+.image65,
+.image66 {
     width: 100%;
     height: 50%;
     background-position: center;
@@ -429,6 +436,30 @@ p {
 
 .image60 {
     background-image: url("image/Screenshot_58.png");
+}
+
+.image61 {
+    background-image: url("image/Screenshot_59.png");
+}
+
+.image62 {
+    background-image: url("image/Screenshot_60.png");
+}
+
+.image63 {
+    background-image: url("image/Screenshot_61.png");
+}
+
+.image64 {
+    background-image: url("image/Screenshot_62.png");
+}
+
+.image65 {
+    background-image: url("image/Screenshot_63.png");
+}
+
+.image66 {
+    background-image: url("image/Screenshot_64.png");
 }
 
 .pageFooter {
