@@ -48,6 +48,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
 }
 
 .asideWrapper,
@@ -70,7 +71,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-y: scroll;
   font-size: 1vw;
   font-weight: 700;
 }
@@ -93,7 +93,7 @@ nav {
 
 .mainArticle {
   grid-area: article;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 .mainTitle {
@@ -191,7 +191,9 @@ p {
 .image65,
 .image66,
 .image67,
-.image68, .image69, .image70 {
+.image68,
+.image69,
+.image70, .image71 {
   width: 100%;
   height: 50%;
   background-position: center;
@@ -472,12 +474,16 @@ p {
 }
 
 .image69 {
-    background-image: url("image/Screenshot_67.png");
-  }
+  background-image: url("image/Screenshot_67.png");
+}
 
-  .image70 {
-    background-image: url("image/Screenshot_68.png");
-  }
+.image70 {
+  background-image: url("image/Screenshot_68.png");
+}
+
+.image71 {
+  background-image: url("image/cycles.jpg");
+}
 
 .pageFooter {
   grid-area: footer;
